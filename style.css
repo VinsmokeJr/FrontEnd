@@ -1,0 +1,104 @@
+*
+    {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 65%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    
+    font-size: 50px;
+    color: black;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color:#000000;
+    margin-left: 2em;
+    font-size: 25px;
+    font-style: bold;
+    
+}
+
+body{
+    background: url(ban.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.ban {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+    
+    
+}
+
+.ban h2 {
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 0;
+}
+.ban h2 span {
+
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 1em;
+
+}
+.ban h3{
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 0%;
+}
+
+.bttn {
+    position:relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    
+}
+
+
+footer{
+    position: relative;
+    display: block;
+    margin-left: 5em;
+    
+}
+
+footer i{
+    font-size: 31px;
+    padding-right: 20px;
+}
